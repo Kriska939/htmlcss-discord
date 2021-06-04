@@ -43,7 +43,7 @@ body {
     width: 20%;
 }
 
-.col.medium {
+.col.big {
     width: 60%;
 }
 
@@ -102,7 +102,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
-h1 {
+h2 {
     margin-bottom: 30px;
     font-weight: 800;
     font-size: 46px;
@@ -128,4 +128,39 @@ h1 {
     background-color: rgb(31, 30, 30);
     color: white;
     border-radius: 20px;
+}
+
+/* MAIN */
+
+.product-info {
+    height: 570px;
+}
+
+.col.medium {
+    height: 450px;
+    margin-top: 80px;
+    color: rgb(31, 30, 30);
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.medium50 .cover_main {
+    width: 600px;
+}
+
+.medium50 {
+    width: 70%;
+}
+
+.medium25 {
+    width: 30%;
+}
+
+.main_p {
+    font-size: 18px;
+    font-weight: 500;
 }
