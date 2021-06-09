@@ -14,6 +14,10 @@ body {
     float: left;
 }
 
+.float-right {
+    float: right;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -144,10 +148,6 @@ h2 {
 
 /* MAIN */
 
-.product-info {
-    padding-top: 50px;
-}
-
 .col.medium {
     margin-top: 80px;
     color: rgb(31, 30, 30);
@@ -197,8 +197,20 @@ h3 {
     padding: 40px 0;
 }
 
-.grey-bg .padded {
+.padded {
     padding-bottom: 100px;
+}
+
+.last-section {
+    padding-top: 50px;
+}
+
+.wave {
+    margin-bottom: -5px;
+}
+
+.upside-down {
+    transform: rotateX(180deg);
 }
 
 /* FOOTER */
@@ -261,4 +273,13 @@ h6 {
 
 #social .fab {
 margin-right: 10px;
+}
+
+#discord-container {
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+#discord-container img {
+    width: 10%;
 }
